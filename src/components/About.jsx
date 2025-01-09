@@ -2,7 +2,7 @@ const About = () => {
     return (
       <section className="py-16 px-6">
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8" id="about">
-            <img className="w-full md:w-1/2 rounded-lg shadow-lg" src="public/builder.jpg" alt="" />
+            <img className="w-full md:w-1/2 rounded-lg shadow-lg" src="/builder.jpg" alt="" />
 
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold mb-4 text-amber-400">About Us</h2>
