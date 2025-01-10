@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="px-12 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#hero" className="text-2xl font-bold text-amber-400">
+        <a href="#hero" className="text-2xl font-bold text-gray-600">
           ArchiWeb
         </a>
 

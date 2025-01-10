@@ -1,25 +1,25 @@
 const Testimonials = () => {
     const reviews = [
       {
-        name: "Harry Potter",
-        text: "I needed a modern living room that matched my magical lifestyle, and ArchiWeb delivered beyond my expectations. The design is sleek, functional, and exactly what I envisioned. Highly recommended!.",
-        image: "https://i.pinimg.com/736x/3c/e9/8f/3ce98fc5146f41e749b919df981a99c6.jpg", 
+        name: "Aryan Rohan Singh",
+        text: "Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus laoreet quam feugiat efficitur, volutpat taciti. Eget aenean tellus montes laoreet quisque maecenas habitasse eget.",
+        image: "https://www.rollingstone.com/wp-content/uploads/2022/10/Get-Out.jpg", 
       },
       {
-        name: "Cristiano Ronaldo",
-        text: "My luxurious villa is a dream come true, thanks to ArchiWeb, I can now invite all of my teammates to my villa. Their attention to detail and ability to bring opulence to life are unmatched. I'm thrilled with the result. SIUUUUU!!",
-        image: "https://i.pinimg.com/736x/8d/d5/bd/8dd5bde9935c29226b21934104219972.jpg", 
+        name: "Aarav Devendra Prasad",
+        text: "Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus laoreet quam feugiat efficitur, volutpat taciti. Eget aenean tellus montes laoreet quisque maecenas habitasse eget.",
+        image: "https://images.unsplash.com/photo-1601972678306-c2bc15613615?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3", 
       },
       {
-        name: "Mohammed Salah",
-        text: "As someone who values comfort and aesthetics, I couldn't be happier with my cozy bedroom. ArchWeb created a space that's perfect for relaxing and I was relieved that my trophies fit in my room. They're incredible!",
-        image: "https://i.pinimg.com/736x/5c/0f/5b/5c0f5be1c23aa2bd39d30cdfd8769798.jpg", 
+        name: "Vivan Harshad Patel",
+        text: "Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus laoreet quam feugiat efficitur, volutpat taciti. Eget aenean tellus montes laoreet quisque maecenas habitasse eget.",
+        image: "https://r2.erweima.ai/imgcompressed/img/compressed_7e880df9e240a9e0c28d744e60a0e49b.webp", 
       },
     ];
   
     return (
       <section className="py-16 bg-gray-50" id="testimonials">
-        <h2 className="text-3xl font-bold text-center mb-12 text-amber-400">What Our Clients Say</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-gray-600">What Our Clients Say</h2>
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reviews.map((review, index) => (
             <div
